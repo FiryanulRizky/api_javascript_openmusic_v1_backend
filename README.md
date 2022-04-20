@@ -6,8 +6,9 @@
 - Saat ini api untuk aplikasi OpenMusic ini sudah ditahap versi pertama dengan dilengkapi fitur menambah, menghapus, dan mengubah data album dan lagu yang dimasukkan oleh pengguna.
 
 # Tools Development
-- Node.Js V17.2.0
-- HAPI Plugin v20.2.1
+- Node.js v17.2.0
+- HAPI js Plugin v20.2.1
+- JOI Plugin v17.6.0 (Data Validation)
 - RDBMS PostgreSQL v14.2 (Sudah Mendukung Migrasi)
 
 # Uji Postman
