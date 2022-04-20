@@ -1,12 +1,17 @@
+# Restful api untuk Aplikasi Open Music v1.0
+
 # Studi Kasus
-- Mengembangkan restful api aplikasi OpenMusic dari sisi backend. 
-- Aplikasi ini dikembangkan secara berangsur hingga nantinya memiliki fitur seperti menambahkan lagu, membuat playlist, memasukan lagu ke dalam playlist, hingga membagikan playlist kepada pengguna lain. 
-- Saat ini aplikasi OpenMusic sudah ditahap versi pertama dengan dilengkapi fitur menambah, menghapus, dan mengubah data album dan lagu yang dimasukkan oleh pengguna.
+- Mengembangkan restful api untuk aplikasi OpenMusic dari sisi backend.
+- Api ini dikembangkan secara berangsur hingga nantinya memiliki fitur seperti menambahkan lagu, membuat playlist, memasukan lagu ke dalam playlist, hingga membagikan playlist kepada pengguna lain.
+- Saat ini api untuk aplikasi OpenMusic ini sudah ditahap versi pertama dengan dilengkapi fitur menambah, menghapus, dan mengubah data album dan lagu yang dimasukkan oleh pengguna.
 
 # Tools Development
 - Node.Js V17.2.0
-- HAPI Plugin
-- RDBMS PostgreSQL v14.2
+- HAPI Plugin v20.2.1
+- RDBMS PostgreSQL v14.2 (Sudah Mendukung Migrasi)
+
+# Uji Postman
+Dikarenakan masih sebatas berjalan di sisi backend, maka pengujian restful api dilakukan dengan aplikasi Postman (untuk berkas pengujian ada di folder PostmanTest, lakukan impor dan jalankan pengujian manual). Berikut adalah hasil pengujian yang telah dilakukan sejauh ini :
 
 # 1. Uji Postman untuk Album
 ![2  Add Album with Valid Payload](https://user-images.githubusercontent.com/60762912/164225768-8f84fc79-7819-4f33-a8fc-d73069b3868c.PNG)
